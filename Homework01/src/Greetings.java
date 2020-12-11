@@ -8,7 +8,7 @@ public class Greetings {
 		int age = 23;
 
 
-		System.out.print("Sveiki, mani sauc " + name + " esmu " + age + " gadus jauns/jauna!");
+		System.out.println("Sveiki, mani sauc " + name + " esmu " + age + " gadus jauns/jauna!");
 	}
 
 }

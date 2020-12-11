@@ -2,16 +2,16 @@ import java.util.Scanner;
 public class ConditionalMath {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.print("Ievadiet savu vārdu: ");
-		String name = sc.nextLine();
+		String name = scanner.nextLine();
 		System.out.print("Ievadiet veselu skaitli A: ");
-		int a = sc.nextInt();
+		int a = scanner.nextInt();
 		System.out.print("Ievadiet veselu skaitli B: ");
-		int b = sc.nextInt();
+		int b = scanner.nextInt();
 		int sum = a + b;
 		int length = name.length();
-		sc.close();
+		scanner.close();
 		
 		
 		if (a>b) {

@@ -2,13 +2,13 @@ import java.util.Scanner;
 public class BasicMath {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.print("Ievadiet veselu skaitli A: ");
-		int a = sc.nextInt();
+		int a = scanner.nextInt();
 		System.out.print("Ievadiet decimālskaitli B: ");
-		double b = sc.nextDouble();
+		double b = scanner.nextDouble();
 	
-		sc.close();
+		scanner.close();
 		double sum = a + b;
 		System.out.println("Skaitļu A un B summa ir: " + sum);
 		double sub = a - b;
